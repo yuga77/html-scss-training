@@ -58,20 +58,20 @@ a:hover {
 .contents {
   width: 960px;
   margin: 0 auto; }
-  .contents .content {
+  .contents__content {
     width: 700px;
     margin: 0 10px;
     float: left; }
-    .contents .content-title {
+    .contents__content-title {
       font-family: 'Bitter', serif;
       font-size: 36px;
       border-bottom: 1px solid #cccccc; }
-    .contents .content-show {
+    .contents__content-show {
       margin-bottom: 35px; }
-      .contents .content-show .show-photo {
+      .contents__content-show__photo {
         font-family: 'Bitter', serif;
         font-size: 24px; }
-      .contents .content-show .show-link {
+      .contents__content-show__link {
         color: #3583aa;
         text-decoration: none; }
 
@@ -80,12 +80,12 @@ a:hover {
   margin: 0 10px 0 30px;
   float: right;
   font-family: 'Bitter', serif; }
-  .sidebar-title {
+  .sidebar__title {
     margin-bottom: 10px; }
-  .sidebar-lists {
+  .sidebar__lists {
     font-size: 16px;
     margin-left: 20px; }
-    .sidebar-lists .item-character {
+    .sidebar__lists-item {
       color: #333333; }
 
 .clearfix:after {

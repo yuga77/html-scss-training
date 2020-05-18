@@ -63,7 +63,7 @@ a:hover { text-decoration: underline; }
   width:  960px;
   margin: 0 auto;
 
-  .content{
+  &__content{
     width:  700px;
     margin: 0 10px;
     float:  left;
@@ -77,12 +77,12 @@ a:hover { text-decoration: underline; }
     &-show {
       margin-bottom: 35px;
 
-      .show-photo{
+      &__photo{
         font-family: 'Bitter', serif;
         font-size:   24px;
       }
 
-      .show-link{
+      &__link{
         color:           #3583aa;
         text-decoration: none;
       }
@@ -96,15 +96,15 @@ a:hover { text-decoration: underline; }
   float:       right;
   font-family: 'Bitter', serif;
 
-  &-title{
+  &__title{
     margin-bottom: 10px;
   }
 
-  &-lists{
+  &__lists{
     font-size:   16px;
     margin-left: 20px;
 
-    .item-character {
+    &-item {
       color: #333333;
     }
   }
