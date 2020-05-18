@@ -91,9 +91,10 @@ a:hover {
       color: #333333; }
 
 .footer {
-  text-align: center;
+  height: 50px;
   color: #ffffff;
-  padding: 20px 0;
+  text-align: center;
   background-color: #767671; }
   .footer__small {
-    font-size: 12px; }
+    font-size: 12px;
+    line-height: 50px; }
