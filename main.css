@@ -19,7 +19,8 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.header-main {
+/* header */
+.header {
   height: 600px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-repeat: no-repeat;
@@ -29,23 +30,23 @@ a:hover {
   background-size: 100%;
   /* 画像のサイズを指定    */
   width: 100%; }
-  .header-main .header {
+  .header__navigation {
     width: 960px;
     height: 100px;
     margin: 0 auto; }
-    .header-main .header .header-navigation {
+    .header__navigation .header-lists {
       float: right;
       margin-top: 60px; }
-      .header-main .header .header-navigation .header-navigation__menu li {
+      .header__navigation .header-lists__list {
         float: left;
         margin: 0 20px;
         font-size: 20px;
         list-style: none;
         font-family: 'Bitter', serif; }
-        .header-main .header .header-navigation .header-navigation__menu li a {
+        .header__navigation .header-lists__list__link {
           color: #ffffff;
           text-decoration: none; }
-        .header-main .header .header-navigation .header-navigation__menu li a:hover {
+        .header__navigation .header-lists__list:hover {
           border-bottom: 2px solid #ffffff;
           padding-bottom: 3px;
           text-decoration: none; }
