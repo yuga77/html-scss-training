@@ -29,24 +29,22 @@ a:hover {
   /* 画像の表示位置を指定  */
   background-size: 100%;
   /* 画像のサイズを指定    */
-  width: 100%; }
-  .header__navigation {
-    width: 960px;
-    height: 100px;
-    margin: 0 auto; }
-    .header__navigation .header-lists {
-      float: right;
-      margin-top: 60px; }
-      .header__navigation .header-lists__list {
-        float: left;
-        margin: 0 20px;
-        font-size: 20px;
-        list-style: none;
-        font-family: 'Bitter', serif; }
-        .header__navigation .header-lists__list__link {
-          color: #ffffff;
-          text-decoration: none; }
-        .header__navigation .header-lists__list:hover {
-          border-bottom: 2px solid #ffffff;
-          padding-bottom: 3px;
-          text-decoration: none; }
+  width: 100%;
+  margin: 0 auto; }
+
+.header-lists {
+  float: right;
+  margin-top: 60px;
+  padding-right: 150px; }
+  .header-lists__item {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Bitter', serif; }
+    .header-lists__item-link {
+      color: #ffffff; }
+      .header-lists__item-link:hover {
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 3px;
+        text-decoration: none; }

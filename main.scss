@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+// reset css
 body {
   margin:           0;
   padding:          0;
@@ -13,7 +14,6 @@ body {
 ul { margin: 0; padding: 0; }
 
 a { color: #3583aa; text-decoration: none; }
-
 a:hover { text-decoration: underline; }
 
 /* header */
@@ -25,33 +25,28 @@ a:hover { text-decoration: underline; }
   background-position: center center;                     /* 画像の表示位置を指定  */
   background-size:     100%;                               /* 画像のサイズを指定    */
   width:               100%;
+  margin:          0 auto;
+}
+    
+.header-lists{
+  float:           right;
+  margin-top:      60px; 
+  padding-right:   150px;
 
-  &__navigation{
-    width:             960px;
-    height:            100px;
-    margin:            0 auto;
+  &__item{
+    float:         left;
+    margin:        0 20px;
+    font-size:     20px;
+    list-style:    none;
+    font-family:   'Bitter', serif;
 
-    .header-lists{
-      float:           right;
-      margin-top:      60px; 
+    &-link{
+      color:           #ffffff;
 
-      &__list{
-        float:         left;
-        margin:        0 20px;
-        font-size:     20px;
-        list-style:    none;
-        font-family:   'Bitter', serif;
-
-        &__link{
-          color:           #ffffff;
-          text-decoration: none;
-        }
-
-        &:hover {
-          border-bottom:   2px solid #ffffff;
-          padding-bottom:  3px;
-          text-decoration: none;
-        }
+      &:hover {
+        border-bottom:   2px solid #ffffff;
+        padding-bottom:  3px;
+        text-decoration: none;
       }
     }
   }
