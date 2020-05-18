@@ -25,7 +25,7 @@ a:hover { text-decoration: underline; }
   background-position: center center;                     /* 画像の表示位置を指定  */
   background-size:     100%;                               /* 画像のサイズを指定    */
   width:               100%;
-  margin:          0 auto;
+  margin:              0 auto;
 }
     
 .header-lists{
@@ -41,7 +41,7 @@ a:hover { text-decoration: underline; }
     font-family:   'Bitter', serif;
 
     &-link{
-      color:           #ffffff;
+      color: #ffffff;
 
       &:hover {
         border-bottom:   2px solid #ffffff;
