@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -24,11 +23,9 @@ a:hover {
   height: 600px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-repeat: no-repeat;
-  /* 画像の繰り返しを指定  */
-  background-position: center center;
-  /* 画像の表示位置を指定  */
-  background-size: 100%;
-  /* 画像のサイズを指定    */
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
   width: 100%;
   margin: 0 auto; }
 
