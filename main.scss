@@ -63,7 +63,6 @@ a:hover { text-decoration: underline; }
 .contents {
   width:  960px;
   margin: 0 auto;
-    height:           100%;
 
   &__main{
     width:  700px;
@@ -96,9 +95,9 @@ a:hover { text-decoration: underline; }
 }
 
 .sidebar {
-  width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;
+  width:       200px;
+  margin:      0 10px 0 30px;
+  float:       right;
   font-family: 'Bitter', serif;
 
   &__section{
@@ -109,7 +108,7 @@ a:hover { text-decoration: underline; }
     }
 
     &__lists{
-      font-size: 16px;
+      font-size:   16px;
       margin-left: 20px;
 
       &__item-character {
@@ -122,5 +121,5 @@ a:hover { text-decoration: underline; }
 .clearfix:after {
   content: "";
   display: block;
-  clear: both;
+  clear:   both;
 }
