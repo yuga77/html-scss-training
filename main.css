@@ -49,3 +49,28 @@ a:hover {
           border-bottom: 2px solid #ffffff;
           padding-bottom: 3px;
           text-decoration: none; }
+
+/* wrap*/
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  padding: 35px 0; }
+  #wrap .contents {
+    width: 960px;
+    margin: 0 auto; }
+    #wrap .contents__main {
+      width: 700px;
+      margin: 0 10px;
+      float: left; }
+      #wrap .contents__main__title {
+        font-family: 'Bitter', serif;
+        font-size: 36px;
+        border-bottom: 1px solid #cccccc; }
+      #wrap .contents__main__show {
+        margin-bottom: 35px; }
+        #wrap .contents__main__show__photo {
+          font-family: 'Bitter', serif;
+          font-size: 24px; }
+        #wrap .contents__main__show__content__link {
+          color: #3583aa;
+          text-decoration: none; }
