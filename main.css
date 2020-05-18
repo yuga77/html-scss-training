@@ -58,20 +58,20 @@ a:hover {
 .contents {
   width: 960px;
   margin: 0 auto; }
-  .contents__main {
+  .contents .content {
     width: 700px;
     margin: 0 10px;
     float: left; }
-    .contents__main__title {
+    .contents .content-title {
       font-family: 'Bitter', serif;
       font-size: 36px;
       border-bottom: 1px solid #cccccc; }
-    .contents__main__show {
+    .contents .content-show {
       margin-bottom: 35px; }
-      .contents__main__show-photo {
+      .contents .content-show .show-photo {
         font-family: 'Bitter', serif;
         font-size: 24px; }
-      .contents__main__show-link {
+      .contents .content-show .show-link {
         color: #3583aa;
         text-decoration: none; }
 
@@ -80,15 +80,13 @@ a:hover {
   margin: 0 10px 0 30px;
   float: right;
   font-family: 'Bitter', serif; }
-  .sidebar__section {
-    margin-bottom: 35px; }
-    .sidebar__section__title {
-      margin-bottom: 10px; }
-    .sidebar__section-lists {
-      font-size: 16px;
-      margin-left: 20px; }
-      .sidebar__section-lists__item-character {
-        color: #333333; }
+  .sidebar-title {
+    margin-bottom: 10px; }
+  .sidebar-lists {
+    font-size: 16px;
+    margin-left: 20px; }
+    .sidebar-lists .item-character {
+      color: #333333; }
 
 .clearfix:after {
   content: "";

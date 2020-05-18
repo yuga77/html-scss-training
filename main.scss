@@ -63,26 +63,26 @@ a:hover { text-decoration: underline; }
   width:  960px;
   margin: 0 auto;
 
-  &__main{
+  .content{
     width:  700px;
     margin: 0 10px;
     float:  left;
 
-    &__title {
+    &-title {
       font-family:   'Bitter', serif;
       font-size:     36px;
       border-bottom: 1px solid #cccccc;
     }
 
-    &__show {
+    &-show {
       margin-bottom: 35px;
 
-      &-photo{
+      .show-photo{
         font-family: 'Bitter', serif;
         font-size:   24px;
       }
 
-      &-link{
+      .show-link{
         color:           #3583aa;
         text-decoration: none;
       }
@@ -96,20 +96,16 @@ a:hover { text-decoration: underline; }
   float:       right;
   font-family: 'Bitter', serif;
 
-  &__section{
-    margin-bottom: 35px;
+  &-title{
+    margin-bottom: 10px;
+  }
 
-    &__title{
-      margin-bottom: 10px;
-    }
+  &-lists{
+    font-size:   16px;
+    margin-left: 20px;
 
-    &-lists{
-      font-size:   16px;
-      margin-left: 20px;
-
-      &__item-character {
-        color: #333333;
-      }
+    .item-character {
+      color: #333333;
     }
   }
 }
