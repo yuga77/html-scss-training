@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+  position:    relative;
+}
+
+ul { margin: 0; padding: 0; }
+
+a { color: #3583aa; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+.header-main{
+  height: 600px;
+  background-image: url(bg-portfolio.jpg);
+  background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+  background-position:center center;                     /* 画像の表示位置を指定  */
+  background-size: 100%;                               /* 画像のサイズを指定    */
+  width:100%;
+  .header{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+
+    .header-navigation{
+      float: right;
+      margin-top: 60px; 
+      .header-navigation__menu{
+        li{
+          float: left;
+          margin: 0 20px;
+          font-size: 20px;
+          list-style: none;
+          font-family: 'Bitter', serif;
+          a{
+            color: #ffffff;
+            text-decoration: none;
+          }
+          a:hover {
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 3px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
