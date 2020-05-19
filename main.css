@@ -18,7 +18,6 @@ a {
 a:hover {
   text-decoration: underline; }
 
-/* header */
 .header {
   height: 600px;
   text-align: right;
@@ -45,7 +44,6 @@ a:hover {
         border-bottom: 2px solid #ffffff;
         text-decoration: none; }
 
-/* wrap*/
 #wrap {
   display: flex;
   width: 960px;
