@@ -20,11 +20,11 @@
     @include       basic-character(20px);
 
     &-link{
-      color: #ffffff;
+      color: $white;
 
       &:hover {
         padding-bottom:  3px;
-        border-bottom:   2px solid #ffffff;
+        border-bottom:   2px solid $white;
         text-decoration: none;
       }
     }

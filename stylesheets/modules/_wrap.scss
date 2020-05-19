@@ -3,7 +3,7 @@
   width:            960px;
   margin:           0 auto;
   padding:          35px 0;
-  background-color: #ffffff;
+  background-color: $white;
   
   &:after {
     content: "";
@@ -16,7 +16,7 @@
   margin: 0 10px;
   
   &-title {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid $grey;
     @include       basic-character(36px); 
   }
 
@@ -49,7 +49,7 @@
     font-size:   16px;
     
     &-item {
-      color: #333333;
+      color: $black;
     }
   }
 }
