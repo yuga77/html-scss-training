@@ -1,0 +1,33 @@
+.header{
+  height:                600px;
+  text-align:            right;
+  background-image:      url(../images/bg-portfolio.jpg);
+  background-repeat:     no-repeat;
+  background-position:   center top;
+  background-attachment: fixed;
+  background-size:       100% auto;
+}
+    
+.header-lists{
+  @extend          .inline;
+  margin-top:      60px; 
+  padding-right:   150px;
+
+  &__item{
+    margin:        0 20px;
+    list-style:    none;
+    @extend        .inline;
+    @include       basic-character(20px);
+
+    &-link{
+      color: $white;
+
+      &:hover {
+        padding-bottom:  3px;
+        border-bottom:   2px solid $white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
