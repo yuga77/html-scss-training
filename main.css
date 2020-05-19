@@ -1,3 +1,6 @@
+.inline, .header-lists, .header-lists__item {
+  display: inline-block; }
+
 body {
   position: relative;
   margin: 0;
@@ -28,11 +31,9 @@ a:hover {
   background-size: 100% auto; }
 
 .header-lists {
-  display: inline-block;
   margin-top: 60px;
   padding-right: 150px; }
   .header-lists__item {
-    display: inline-block;
     margin: 0 20px;
     list-style: none;
     font-size: 20px;

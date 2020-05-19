@@ -9,14 +9,14 @@
 }
     
 .header-lists{
-  display:         inline-block;
+  @extend          .inline;
   margin-top:      60px; 
   padding-right:   150px;
 
   &__item{
-    display:       inline-block;
     margin:        0 20px;
     list-style:    none;
+    @extend        .inline;
     @include       basic-character(20px);
 
     &-link{
