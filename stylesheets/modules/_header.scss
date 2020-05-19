@@ -16,9 +16,8 @@
   &__item{
     display:       inline-block;
     margin:        0 20px;
-    font-size:     20px;
-    font-family:   'Bitter', serif;
     list-style:    none;
+    @include       basic-character(20px);
 
     &-link{
       color: #ffffff;

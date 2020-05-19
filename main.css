@@ -34,9 +34,9 @@ a:hover {
   .header-lists__item {
     display: inline-block;
     margin: 0 20px;
+    list-style: none;
     font-size: 20px;
-    font-family: 'Bitter', serif;
-    list-style: none; }
+    font-family: 'Bitter', serif; }
     .header-lists__item-link {
       color: #ffffff; }
       .header-lists__item-link:hover {
@@ -59,13 +59,13 @@ a:hover {
   margin: 0 10px; }
   .content-title {
     border-bottom: 1px solid #cccccc;
-    font-family: 'Bitter', serif;
-    font-size: 36px; }
+    font-size: 36px;
+    font-family: 'Bitter', serif; }
   .content .section-content {
     margin-bottom: 35px; }
     .content .section-content__photo {
-      font-family: 'Bitter', serif;
-      font-size: 24px; }
+      font-size: 24px;
+      font-family: 'Bitter', serif; }
 
 .section-content__link {
   color: #3583aa;
@@ -74,6 +74,7 @@ a:hover {
 .sidebar {
   width: 200px;
   margin: 0 10px 0 30px;
+  font-size: 15px;
   font-family: 'Bitter', serif; }
   .sidebar__title {
     margin-bottom: 10px; }

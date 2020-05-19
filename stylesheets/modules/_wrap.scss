@@ -17,16 +17,14 @@
   
   &-title {
     border-bottom: 1px solid #cccccc;
-    font-family:   'Bitter', serif;
-    font-size:     36px;
+    @include       basic-character(36px); 
   }
 
   .section-content {
     margin-bottom: 35px;
 
     &__photo{
-      font-family: 'Bitter', serif;
-      font-size:   24px;
+      @include basic-character(24px); 
     }
   }
 }
@@ -40,7 +38,7 @@
 .sidebar {
   width:       200px;
   margin:      0 10px 0 30px;
-  font-family: 'Bitter', serif;
+  @include     basic-character(15px); 
 
   &__title{
     margin-bottom: 10px;
