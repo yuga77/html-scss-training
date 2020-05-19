@@ -20,9 +20,8 @@ a:hover {
 
 /* header */
 .header {
-  width: 100%;
   height: 600px;
-  margin: 0 auto;
+  text-align: right;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -30,11 +29,11 @@ a:hover {
   background-size: 100% auto; }
 
 .header-lists {
-  float: right;
+  display: inline-block;
   margin-top: 60px;
   padding-right: 150px; }
   .header-lists__item {
-    float: left;
+    display: inline-block;
     margin: 0 20px;
     font-size: 20px;
     font-family: 'Bitter', serif;
@@ -60,7 +59,6 @@ a:hover {
     clear: both; }
 
 .content {
-  float: left;
   width: 700px;
   margin: 0 10px; }
   .content-title {
@@ -78,7 +76,6 @@ a:hover {
   text-decoration: none; }
 
 .sidebar {
-  float: right;
   width: 200px;
   margin: 0 10px 0 30px;
   font-family: 'Bitter', serif; }
