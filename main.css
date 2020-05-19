@@ -48,15 +48,13 @@ a:hover {
 /* wrap*/
 #wrap {
   display: flex;
-  clear: both;
   width: 960px;
   margin: 0 auto;
   padding: 35px 0;
   background-color: #ffffff; }
   #wrap:after {
     content: "";
-    display: block;
-    clear: both; }
+    display: block; }
 
 .content {
   width: 700px;
