@@ -1,0 +1,4 @@
+@mixin basic-character($size) {
+  font-size:     $size;
+  font-family:   'Bitter', serif;
+}

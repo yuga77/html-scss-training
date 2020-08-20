@@ -1,17 +1,95 @@
-@charset "utf-8";
+.inline, .header-lists, .header-lists__item {
+  display: inline-block; }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   background-color: #cccccc;
   color: #333333;
   font-size: 15px;
-  line-height: 2;
-  position:    relative;
-}
+  line-height: 2; }
 
-ul { margin: 0; padding: 0; }
+ul {
+  margin: 0;
+  padding: 0; }
 
-a { color: #3583aa; text-decoration: none; }
+a {
+  color: #3583aa;
+  text-decoration: none; }
 
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: underline; }
+
+.header {
+  height: 600px;
+  text-align: right;
+  background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto; }
+
+.header-lists {
+  margin-top: 60px;
+  padding-right: 150px; }
+  .header-lists__item {
+    margin: 0 20px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Bitter', serif; }
+    .header-lists__item-link {
+      color: #ffffff; }
+      .header-lists__item-link:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid #ffffff;
+        text-decoration: none; }
+
+#wrap {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  padding: 35px 0;
+  background-color: #ffffff; }
+  #wrap:after {
+    content: "";
+    display: block; }
+
+.content {
+  width: 700px;
+  margin: 0 10px; }
+  .content-title {
+    border-bottom: 1px solid #cccccc;
+    font-size: 36px;
+    font-family: 'Bitter', serif; }
+  .content .section-content {
+    margin-bottom: 35px; }
+    .content .section-content__photo {
+      font-size: 24px;
+      font-family: 'Bitter', serif; }
+
+.section-content__link {
+  color: #3583aa;
+  text-decoration: none; }
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  font-size: 15px;
+  font-family: 'Bitter', serif; }
+  .sidebar__title {
+    margin-bottom: 10px; }
+  .sidebar__lists {
+    margin-left: 20px;
+    font-size: 16px; }
+    .sidebar__lists-item {
+      color: #333333; }
+
+.footer {
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #767671; }
+  .footer__small {
+    font-size: 12px;
+    line-height: 50px; }
